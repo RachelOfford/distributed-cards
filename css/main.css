@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "georgia";
+  font-family: georgia;
   background-color: #f5f2f0;
   line-height: 1.5;
   color: #000;
@@ -29,13 +29,16 @@ h1 {
 h2 {
   font-family: "Denk One";
   color: #623b0c;
-  margin: 0 0 auto;
+  margin: 0;
+  padding: 0 0 1.5rem;
 }
 
 ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  margin: 0;
+  padding: 1.5rem 0;
 }
 
 li {
@@ -49,7 +52,7 @@ li {
   border-color: #623b0c;
   background-color: #ede3db;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
 p {
