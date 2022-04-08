@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font-family: georgia;
+  background-color: #f5f2f0;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 2rem;
+}
+
+h1 {
+  font-family: "Denk One";
+  color: #623b0c;
+  padding: 1rem;
+}
+
+h2{
+  font-family: "Denk One";
+  color: #623b0c;
+}
+
+ol {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  padding: .5em .75em .6em;
+  gap: 1rem;
+}
+
+a href {
+  color: #fff;
+  background-color: #623b0c;
+}
