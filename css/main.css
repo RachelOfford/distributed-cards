@@ -31,12 +31,16 @@ h2{
 
 ol {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   border-radius: 8px;
   border-style: solid;
   border-width: 2px;
+  border-color: #623b0c;
   padding: .5em .75em .6em;
   gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 a {
