@@ -22,30 +22,34 @@ body {
 h1 {
   font-family: "Denk One";
   color: #623b0c;
+  margin: 0;
 }
 
 h2 {
   font-family: "Denk One";
   color: #623b0c;
+  margin: 0 0 auto;
 }
 
 ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-radius: 8px;
-  border-style: solid;
-  border-width: 2px;
-  padding: .5em .75em .6em;
   gap: 1rem;
-  border-color: #623b0c;
-  background-color: #ede3db;
 }
 
 li {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  padding: .5em .75em .6em;
+  border-color: #623b0c;
+  background-color: #ede3db;
+  margin: 0;
+  padding: 0;
 }
 
 p {
