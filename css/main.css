@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Georgia";
+  font-family: "georgia";
   background-color: #f5f2f0;
   line-height: 1.5;
   color: #000;
@@ -12,25 +12,32 @@ html {
 
 img {
   width: 100%;
+  margin: 0 0 1.5rem;
 }
 
 body {
   margin: 0;
+  padding: 1rem;
 }
 
 h1 {
   font-family: "Denk One";
   color: #623b0c;
-  padding: 1rem;
 }
 
-h2{
+h2 {
   font-family: "Denk One";
   color: #623b0c;
 }
 
 ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   display: grid;
+}
+
+li {
   grid-template-columns: 1fr 1fr;
   border-radius: 8px;
   border-style: solid;
@@ -39,12 +46,6 @@ ol {
   background-color: #ede3db;
   padding: .5em .75em .6em;
   gap: 1rem;
-}
-
-li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 a {
