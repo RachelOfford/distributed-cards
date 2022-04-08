@@ -33,7 +33,7 @@ h2 {
 ol {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 li {
