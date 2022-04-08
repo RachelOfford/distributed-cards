@@ -36,8 +36,12 @@ ol {
   border-style: solid;
   border-width: 2px;
   border-color: #623b0c;
+  background-color: #ede3db;
   padding: .5em .75em .6em;
   gap: 1rem;
+}
+
+li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
