@@ -34,10 +34,10 @@ ol {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  display: grid;
 }
 
 li {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   border-radius: 8px;
   border-style: solid;
